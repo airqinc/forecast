@@ -1,0 +1,5 @@
+forecast:
+  build: ./forecast
+  # image: registry.eu-gb.bluemix.net/airq_containers/aqi:latest #aqi
+  container_name: forecast
+  mem_limit: 64m
